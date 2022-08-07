@@ -3,6 +3,14 @@ Tvheadend script URL and file "not python"
 
 Copy tv_grab_url and tv_grab_file (with the .txt) into docker tv /config folder.
 
+Shell access whilst the container is running: docker exec -it tvheadend /bin/bash
+
+
+To monitor the logs of the container in realtime: docker logs -f tvheadend
+
+
+
+
 open condsole on protainer
 
 cd /config
